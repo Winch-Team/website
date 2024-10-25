@@ -1,0 +1,36 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Download"
+url = "/download"
+weight = 3
+
+[[main]]
+name = "Curl Installation"
+url = "/download/curl"
+parent = "Download"
+
+[[main]]
+name = "Manual Installation"
+url = "/download/manual"
+parent = "Download"
+
+[[main]]
+weight = 4
+name = "Development"
+
+[[main]]
+parent = "Development"
+name = "Blog"
+url = "/blog"
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 3
