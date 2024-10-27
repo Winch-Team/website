@@ -5,7 +5,7 @@ draft: false
 
 Installing through cURL is made easy. We host a shell script on our website that you can easily run using the following command:
 
-```shell
+```sh
 curl -sSf https://install.winchteam.dev/install-winch.sh | sh
 ```
 

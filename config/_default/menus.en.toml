@@ -27,7 +27,7 @@ name = "Development"
 
 [[main]]
 parent = "Development"
-name = "Blog"
+name = "News"
 url = "/blog"
 
 [[footer]]

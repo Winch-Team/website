@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Download Now"
-    link: "/download"
+    link: "/download/curl"
 
 # Features
 features:
@@ -33,7 +33,7 @@ features:
     button:
       enable: true
       label: "Download Now"
-      link: "/download"
+      link: "/download/curl"
 
   - title: "The Top Reasons to Choose Winch"
     image: "/images/service-3.png"

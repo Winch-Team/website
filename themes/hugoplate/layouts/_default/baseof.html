@@ -49,5 +49,12 @@
 
     <!-- script (always cache it) -->
     {{ partialCached "essentials/script.html" . }}
+
+    {{ with resources.Get "js/copybutton.js" }}
+      {{ $minifiedScript := . | minify | fingerprint }}
+      <script src="{{ $minifiedScript.Permalink }}" integrity="{{ $minifiedScript.Data.Integrity }}" defer></script>
+    {{ else }}
+        {{ errorf "copybutton.js not found in assets/js/" }}
+    {{ end }}
   </body>
 </html>
