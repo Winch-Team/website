@@ -64,6 +64,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - name: Install npm dependencies
+        run: npm install
 
   # Deployment job
   deploy:
