@@ -65,7 +65,7 @@ jobs:
         with:
           path: ./public
       - name: Install npm dependencies
-        run: npm install
+        run: npm i -D postcss postcss-cli autoprefixer
 
   # Deployment job
   deploy:
